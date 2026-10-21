@@ -1,0 +1,44 @@
+{
+  "name": "Consultation Notification",
+  "definition": {
+    "document": {
+      "dsl": "1.0.0",
+      "name": "consultation_notification",
+      "version": "1.0",
+      "namespace": "base44"
+    },
+    "do": [
+      {
+        "notify": {
+          "call": "invoke_backend_function",
+          "with": {
+            "function_name": "notifyConsultation",
+            "args": {
+              "name": "${ .trigger.data.name }",
+              "email": "${ .trigger.data.email }",
+              "service": "${ .trigger.data.service }",
+              "message": "${ .trigger.data.message }",
+              "source": "${ .trigger.data.source }"
+            }
+          },
+          "then": "end",
+          "x-base44": {
+            "title": "Send notification email",
+            "description": "Notify the business inbox"
+          }
+        }
+      }
+    ]
+  },
+  "trigger": {
+    "condition": null,
+    "config": {
+      "trigger_type": "entity",
+      "events": [
+        "create"
+      ],
+      "entity_name": "Consultation"
+    }
+  },
+  "description": "Emails a notification to the business inbox whenever a new consultation request is submitted"
+}
