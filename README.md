@@ -1,77 +1,45 @@
-# Base44 Project
+<div align="center">
 
-Use this repository to run and edit the app locally, then publish changes back through Base44.
+# Yotieso Global Consulting
+### Client Website · Responsive Frontend
 
-Any change pushed to the repo will also be reflected in the Base44 Builder.
+**React · JavaScript · Vite · Tailwind CSS · Base44**
 
-## Prerequisites
+[Developer Profile](https://github.com/tberry825)
 
-1. Clone the repository using the project's Git URL.
-2. Navigate to the project directory.
-3. Install dependencies: `npm install`.
-4. Install the Base44 CLI: `npm install -g base44@latest`.
+</div>
 
-See the [Base44 CLI docs](https://docs.base44.com/developers/references/cli/get-started/overview) if you want to run Base44 commands directly.
+---
 
-## Run Locally
+## Project Overview
 
-Run the full local development environment from the project root:
+A client website focused on a polished consulting-business presentation, clear navigation, and responsive layouts.
 
-```bash
-base44 dev
-```
+## My Role
 
-`base44 dev` starts the local Base44 development backend and, when this app is configured for it, also starts the frontend dev server for you. Use the frontend URL printed by the command.
+**Frontend Developer & Graphic Designer**
 
-For example, when the Base44 project config includes a `serveCommand`, `base44 dev` can launch the frontend too:
+- Implemented and refined frontend layouts and page presentation.
+- Organized information and navigation around the visitor experience.
+- Applied responsive styling and brand-consistent interface design.
 
-```json5
-{
-  "site": {
-    "serveCommand": "npm run dev"
-  }
-}
-```
+## Technology Stack
 
-In a Base44 project this lives in `base44/config.jsonc`.
+- **Frontend:** React, JavaScript, Vite
+- **Styling:** Tailwind CSS, responsive interface design
+- **Platform:** Base44
+- **Design:** Visual hierarchy, brand presentation, UI/UX
 
-## Run Only The Frontend
+## Development Setup
 
-If you only want to work on the frontend against the hosted Base44 backend, run:
+This app uses Base44 tooling. See **[Base44 setup, local development, and publishing instructions](docs/BASE44_SETUP.md)** before running it locally. Some features depend on the linked Base44 application and may not operate as a standalone static site.
 
-```bash
-npm run dev
-```
+## Client Confidentiality
 
-Open the local URL printed by Vite.
+**Private repository.** Client-owned source, branding, and business materials should not be redistributed or made public without approval.
 
-## Use The Hosted Backend
+## Developer
 
-For frontend-only development, create or update `.env.local` in the project root:
+**Tanesha Berry — Frontend Developer & Graphic Designer**
 
-```bash
-VITE_BASE44_APP_ID=your_app_id
-VITE_BASE44_APP_BASE_URL=https://your-app.base44.app
-```
-
-`VITE_BASE44_APP_ID` identifies the Base44 app.
-
-`VITE_BASE44_APP_BASE_URL` tells the Base44 Vite plugin where to send local `/api` requests. Point it at your deployed Base44 app URL when you want the local frontend to use the hosted backend.
-
-When you use `base44 dev`, the command injects the local Base44 values for you, so `.env.local` is mainly needed for frontend-only workflows.
-
-## Publish Your Changes
-
-After pushing your changes to git, open the Base44 dashboard and publish the app:
-
-```bash
-base44 dashboard open
-```
-
-## Docs & Support
-
-Documentation: [https://docs.base44.com/Integrations/Using-GitHub](https://docs.base44.com/Integrations/Using-GitHub)
-
-Base44 CLI command reference: [https://docs.base44.com/developers/references/cli/commands/introduction](https://docs.base44.com/developers/references/cli/commands/introduction)
-
-Support: [https://app.base44.com/support](https://app.base44.com/support)
+[Portfolio](https://concreterosegraphics.com/) · [GitHub Profile](https://github.com/tberry825)
