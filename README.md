@@ -34,9 +34,9 @@ A client website focused on a polished consulting-business presentation, clear n
 
 This app uses Base44 tooling. See **[Base44 setup, local development, and publishing instructions](docs/BASE44_SETUP.md)** before running it locally. Some features depend on the linked Base44 application and may not operate as a standalone static site.
 
-## Client Confidentiality
+## Project Permissions
 
-**Private repository.** Client-owned source, branding, and business materials should not be redistributed or made public without approval.
+This client project is published with permission. The repository demonstrates the approved website implementation; the client's brand, content, and other intellectual property remain with their respective owners. Publication does not grant unrestricted permission to reuse client assets.
 
 ## Developer
 
